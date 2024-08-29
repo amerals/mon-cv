@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/amerals/mon-cv.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "feature"]
+	vscode-merge-base = origin/main
+[branch "feature2"]
+	vscode-merge-base = origin/main
+[branch "nom_de_votre_branche"]
+	vscode-merge-base = origin/main
